@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taverna Grill Burger - CONTACTO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navegador">
+            <ul>
+                <li class="navegador__home"><a href="index.html">Home</a></li>
+                <li class="navegador__burgas"><a href="burgas.html">Burgas</a></li>
+                <li class="navegador__pedido"><a href="./pedido.html">Mi Pedido</a></li>
+                <li class="navegador__contacto"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="contacto">
+        <h1 class="contacto__titulo">CONTACTO</h1>
+        <h2 class="contacto__subtitulo">Dejanos tu consulta o sugerencia</h2>
+    </section>
+    <fieldset class="form">
+        <label for="nombre">
+            Nombre y Apellido
+            <span class="obligatorio">*</span>
+        </label>
+            <input class="form__input-nombre" type="text" id= nombre placeholder="Nombre y Apellido"/>
+        
+        <label for="email">
+            Correo Electrónico
+            <span class="obligatorio">*</span>
+        </label>       
+            <input class="form__input-email" type="email" placeholder="Correo Electronico"/>
+        
+        <label for="email">Número de Teléfono (opcional)</label>  
+            <input class="form__input-tel" type="number" placeholder="Ej: 15 0000 0000">
+                
+        <label for="mensaje">
+            Mensaje
+            <span class="obligatorio">*</span>
+        </label>
+        <textarea class="form__input-texto" placeholder="Dejanos tu comentario..."></textarea> 
+
+    </fieldset>
+
+    <div class="enviar">
+        <a href="">Enviar</a>
+    </div>
+
+    <footer>
+        <p class="footer">
+            <small>2022  -  Taverna Grill Burger, todos los derechos reservados</small>
+        </p>
+        </footer>
+</body>
+</html>

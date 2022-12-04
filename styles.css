@@ -1,0 +1,272 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Rokkitt';
+    src: url('./resources/fonts/Rokkitt-Regular.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rokkitt';
+    src: url('./resources/fonts/Rokkitt-Bold.ttf');
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: 'Lobster';
+    src: url('./resources/fonts/Lobster-Regular.ttf');
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+    ul {
+        list-style-type: none;
+    }
+
+body {
+    font-family: 'Rokkitt';
+    font-display: none;
+    background: rgb(144,162,13);
+background: linear-gradient(131deg, rgba(144,162,13,1) 5%, rgba(181,191,39,1) 40%, rgba(246,246,191,1) 94%);
+}
+
+body a {
+    color: black;
+}
+
+main {
+    padding: 0px 70px;
+}
+
+/* navbar */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+    font-family: lobster;
+    background-color: #2e2e2e;
+    font-size:x-large;
+    font-weight: bold;
+    color: #f0f0d8;
+    display: flex;
+    justify-content: center;
+}
+
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+
+header a:hover {
+    color: #b4df37;
+}
+
+.navegador a {
+    color: #eee;
+}
+
+.navegador__home {
+    font-size: xx-large;
+}
+
+/* hero - index */
+
+.hero__contenido-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 10px;
+}
+
+.hero__contenido-info {
+    display: block;
+    text-align: center;
+    font-size:150%;
+    padding: 10px;
+}
+
+.hero__contenido-probalas {
+    display: block;
+    text-align: center;
+    font-size:200%;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.hero__contenido-boton {
+    display: block;
+    text-align: center;
+    font-size: 250%;
+    margin: 15px;
+    padding: 10px;
+    /* width:fit-content; */
+    color: #eee;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    border: 2px solid #000000;
+}
+
+hero__contenido-boton:hover {
+    color: #b4df37;
+}
+
+video {
+    width:100%;
+}
+
+/* burgas */
+
+.burgas__titulo {
+    font-weight: bold;
+    text-align: center;
+    font-size: 300%;
+}
+
+.burgas_subtitulo {
+    text-align: center;
+    font-size: 150%;
+    padding: 20px 20px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.menu__tarjeta {
+    background-color: #c0c0b4;
+    border-radius: 10px;
+    /* border: 2px solid #2e2e2e; */
+    padding: 10px 5px 10px 5px;
+    width: 360px;
+    margin: 20px;   
+}
+
+.menu__tarjeta-imagen {
+    width: 350px;
+    height: 350px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;    
+}
+
+.menu__tarjeta-titulo {
+    display: flex;
+    font-family: lobster;
+    text-align: center;
+    display: block;
+}
+
+.menu__tarjeta-descripcion {
+    display: flex;
+    text-align: center;
+    display: block;
+}
+
+/* Mi pedido */
+.pedido {
+    text-align: center;
+    font-size: 300%;
+    padding: 10px 0px;
+}
+
+.direccion {
+    font-size: 150%;
+    text-align: center;
+}
+
+.boton-continuar {
+    display: block;
+    font-size: 150%;
+    margin: 15px;
+    padding: 10px;
+    width:fit-content;
+    color: #eee;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    /* ver como mierda correr la caja */
+}
+
+/* contacto */
+
+.contacto__titulo {
+    text-align: center;
+    font-size: 300%;
+    padding: 10px 0px;
+}
+
+.contacto__subtitulo {
+    font-size: 150%;
+    text-align: center;
+}
+
+.form {
+    font-size: 150%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    /* ver tamaño de las cajas */
+}
+
+.form__input-nombre {
+
+}
+
+.form__input-email {
+
+}
+
+.form__input-tel {
+
+}
+
+.form__input-texto {
+
+}
+
+.enviar {
+    display: block;
+    font-size: 150%;
+    margin: 15px;
+    padding: 10px;
+    width:fit-content;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    /* ver como mierda correr la caja */
+}
+
+.enviar a {
+    color: #eee;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    font-size: medium;
+}
+
+/* media queries */

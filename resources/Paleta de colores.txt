@@ -1,0 +1,5 @@
+#344321 verde oscuro
+#E1972B naranja
+#885D24 marron
+#94B028 verde claro
+#848484 lila
