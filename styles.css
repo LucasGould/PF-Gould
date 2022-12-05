@@ -124,7 +124,7 @@ header span {
     border: 2px solid #000000;
 }
 
-hero__contenido-boton:hover {
+.hero__contenido-boton:hover {
     color: #b4df37;
 }
 
@@ -208,6 +208,10 @@ video {
     /* justificar el box a la derecha */
 }
 
+.boton-continuar:hover {
+    color: #b4df37;
+}
+
 /* contacto */
 
 .contacto__titulo {
@@ -264,6 +268,10 @@ video {
 
 .enviar a {
     color: #eee;
+}
+
+.enviar a:hover {
+    color: #b4df37;
 }
 
 /* footer */
