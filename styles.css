@@ -36,7 +36,7 @@ body {
     font-family: 'Rokkitt';
     font-display: none;
     background: rgb(144,162,13);
-background: linear-gradient(131deg, rgba(144,162,13,1) 5%, rgba(181,191,39,1) 40%, rgba(246,246,191,1) 94%);
+    background: linear-gradient(131deg, rgba(144,162,13,1) 5%, rgba(181,191,39,1) 40%, rgba(246,246,191,1) 94%);
 }
 
 body a {
@@ -73,6 +73,10 @@ header li {
 
 header a:hover {
     color: #b4df37;
+}
+
+header span {
+    display: none;
 }
 
 .navegador a {
@@ -114,7 +118,6 @@ header a:hover {
     font-size: 250%;
     margin: 15px;
     padding: 10px;
-    /* width:fit-content; */
     color: #eee;
     background-color: #2e2e2e;
     border-radius: 10px;
@@ -202,7 +205,7 @@ video {
     background-color: #2e2e2e;
     border-radius: 10px;
     border: 2px solid #000000;
-    /* ver como mierda correr la caja */
+    /* justificar el box a la derecha */
 }
 
 /* contacto */
@@ -228,10 +231,10 @@ video {
     margin: 20px;
     border-radius: 10px;
     border: 2px solid #000000;
-    /* ver tamaño de las cajas */
 }
 
-.form__input-nombre {
+                             /* ver tamaño de las cajas */
+/* .form__input-nombre {
 
 }
 
@@ -245,7 +248,7 @@ video {
 
 .form__input-texto {
 
-}
+} */
 
 .enviar {
     display: block;
@@ -256,7 +259,7 @@ video {
     background-color: #2e2e2e;
     border-radius: 10px;
     border: 2px solid #000000;
-    /* ver como mierda correr la caja */
+     /* justificar el box a la derecha */
 }
 
 .enviar a {
@@ -269,4 +272,40 @@ footer {
     font-size: medium;
 }
 
+
 /* media queries */
+@media (max-width: 992px) {
+    /* index */
+    .hero__contenido-logo {
+        width: 55%;
+    }
+    /* burgas */
+    .menu {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    /* index */
+    header ul {
+        display: none;
+    }
+    header span {
+        display: block;
+    }
+    .hero__contenido-logo {
+        width: 68%;
+    }
+    
+    /* burgas */
+    .menu {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media only screen and (max-width:576px) {
+    /* index */
+    .hero__contenido-logo {
+        width: 70%;
+    }
+}
