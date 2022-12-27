@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Rokkitt';
+    src: url('./resources/fonts/Rokkitt-Regular.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rokkitt';
+    src: url('./resources/fonts/Rokkitt-Bold.ttf');
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: 'Lobster';
+    src: url('./resources/fonts/Lobster-Regular.ttf');
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+    ul {
+        list-style-type: none;
+    }
+
+body {
+    font-family: 'Rokkitt';
+    font-display: none;
+    background: rgb(144,162,13);
+    background: linear-gradient(131deg, rgba(144,162,13,1) 5%, rgba(181,191,39,1) 40%, rgba(246,246,191,1) 94%);
+}
+
+body a {
+    color: black;
+}
+
+main {
+    padding: 0px 70px;
+}
+
+/* navbar */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+    font-family: lobster;
+    background-color: #2e2e2e;
+    font-size:x-large;
+    font-weight: bold;
+    color: #f0f0d8;
+    display: flex;
+    justify-content: center;
+
+    li {
+        list-style: none;
+        display: inline-block;
+        padding: 0 20px;
+
+        &:hover {
+            color: $verde
+        }
+    }
+
+
+}
+
+.nav-link {
+    color: #eee;
+    font-size: 30px;
+}
+
+.navegador__home {
+    font-size: xx-large;
+}
+
+.navbar-brand {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;    
+}
+
+footer {
+    text-align: center;
+    font-size: medium;
+
+    a {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+

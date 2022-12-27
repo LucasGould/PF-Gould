@@ -1,0 +1,46 @@
+.hero__contenido {
+    
+    logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 10px;
+    }
+    
+    info {
+        display: block;
+        text-align: center;
+        font-size:150%;
+        padding: 10px;
+    }
+    
+    probalas {
+        display: block;
+        text-align: center;
+        font-size:200%;
+        font-weight: bold;
+        padding: 10px;
+    }
+    
+    boton {
+        display: block;
+        text-align: center;
+        font-size: 250%;
+        margin: 15px;
+        padding: 10px;
+        color: #eee;
+        background-color: #2e2e2e;
+        border-radius: 10px;
+        border: 2px solid #000000;
+
+        &:hover {
+            color: $verde;
+        }
+    }
+}
+
+
+video {
+    width:100%;
+}
