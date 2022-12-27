@@ -1,6 +1,6 @@
 .hero__contenido {
     
-    logo {
+    &-logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -8,14 +8,21 @@
     padding: 10px;
     }
     
-    info {
+    &-titulo {
         display: block;
         text-align: center;
-        font-size:150%;
+        font-size:220%;
+        padding: 10px;
+    }
+
+    &-info {
+        display: block;
+        text-align: center;
+        font-size:120%;
         padding: 10px;
     }
     
-    probalas {
+    &-probalas {
         display: block;
         text-align: center;
         font-size:200%;
@@ -23,7 +30,7 @@
         padding: 10px;
     }
     
-    boton {
+    &-boton {
         display: block;
         text-align: center;
         font-size: 250%;

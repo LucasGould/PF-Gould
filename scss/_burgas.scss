@@ -1,0 +1,51 @@
+.burgas {
+    
+    &__titulo {
+    font-weight: bold;
+    text-align: center;
+    font-size: 300%;
+    
+    &__subtitulo {
+        text-align: center;
+        font-size: 150%;
+        padding: 20px 20px;
+        margin: 10px;
+    }
+}
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+
+    &__tarjeta {
+        background-color: #c0c0b4;
+        border-radius: 10px;
+        padding: 10px 5px 10px 5px;
+        width: 360px;
+        margin: 20px;  
+        
+        &-imagen {
+            width: 350px;
+            height: 350px;
+            padding: 5px;
+            display: flex;
+            justify-content: center;    
+        }
+        
+        &-titulo {
+            display: flex;
+            font-family: lobster;
+            text-align: center;
+            display: block;
+        }
+
+        &-descripcion {
+            display: flex;
+            text-align: center;
+            display: block;
+        }
+    }
+}

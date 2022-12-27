@@ -1,0 +1,45 @@
+.contacto {
+    &__titulo {
+    text-align: center;
+    font-size: 300%;
+    padding: 10px 0px;
+    }
+
+    &__subtitulo {
+        font-size: 150%;
+        text-align: center;
+    }
+}
+
+
+.form {
+    font-size: 150%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+}
+
+.enviar {
+    display: block;
+    font-size: 150%;
+    margin: 15px;
+    padding: 10px;
+    width:fit-content;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    
+    a {
+    color: #eee;
+
+        &:hover {
+        color: $verde
+        }
+    }
+}
+

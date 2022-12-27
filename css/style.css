@@ -74,30 +74,37 @@ footer {
   text-align: center;
   font-size: medium; }
   footer a {
-    display: flex;
+    padding: 7px;
+    display: inline-flex;
     justify-content: space-evenly; }
 
-.hero__contenido logo {
+.hero__contenido-logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 30%;
   padding: 10px; }
 
-.hero__contenido info {
+.hero__contenido-titulo {
   display: block;
   text-align: center;
-  font-size: 150%;
+  font-size: 220%;
   padding: 10px; }
 
-.hero__contenido probalas {
+.hero__contenido-info {
+  display: block;
+  text-align: center;
+  font-size: 120%;
+  padding: 10px; }
+
+.hero__contenido-probalas {
   display: block;
   text-align: center;
   font-size: 200%;
   font-weight: bold;
   padding: 10px; }
 
-.hero__contenido boton {
+.hero__contenido-boton {
   display: block;
   text-align: center;
   font-size: 250%;
@@ -107,49 +114,49 @@ footer {
   background-color: #2e2e2e;
   border-radius: 10px;
   border: 2px solid #000000; }
-  .hero__contenido boton:hover {
+  .hero__contenido-boton:hover {
     color: #b4df37; }
 
 video {
   width: 100%; }
 
-.burgas titulo {
+.burgas__titulo {
   font-weight: bold;
   text-align: center;
   font-size: 300%; }
-  .burgas titulo subtitulo {
+  .burgas__titulo__subtitulo {
     text-align: center;
     font-size: 150%;
-    padding: 20px 20px; }
+    padding: 20px 20px;
+    margin: 10px; }
 
 .menu {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   justify-items: center; }
-  .menu tarjeta {
+  .menu__tarjeta {
     background-color: #c0c0b4;
     border-radius: 10px;
     padding: 10px 5px 10px 5px;
     width: 360px;
     margin: 20px; }
-    .menu tarjeta imagen {
+    .menu__tarjeta-imagen {
       width: 350px;
       height: 350px;
       padding: 5px;
       display: flex;
       justify-content: center; }
-    .menu tarjeta titulo {
+    .menu__tarjeta-titulo {
       display: flex;
       font-family: lobster;
       text-align: center;
       display: block; }
-    .menu tarjeta descripcion {
+    .menu__tarjeta-descripcion {
       display: flex;
       text-align: center;
       display: block; }
 
-/* Mi pedido */
 .pedido {
   text-align: center;
   font-size: 300%;
@@ -172,13 +179,12 @@ video {
   .boton-continuar:hover {
     color: #b4df37; }
 
-/* contacto */
-.contacto titulo {
+.contacto__titulo {
   text-align: center;
   font-size: 300%;
   padding: 10px 0px; }
 
-.contacto subtitulo {
+.contacto__subtitulo {
   font-size: 150%;
   text-align: center; }
 
@@ -207,7 +213,6 @@ video {
     .enviar a:hover {
       color: #b4df37; }
 
-/* media queries */
 @media (max-width: 992px) {
   /* index */
   .hero__contenido-logo {

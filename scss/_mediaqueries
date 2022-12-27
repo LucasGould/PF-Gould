@@ -1,0 +1,35 @@
+@media (max-width: 992px) {
+    /* index */
+    .hero__contenido-logo {
+        width: 55%;
+    }
+    /* burgas */
+    .menu {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    /* index */
+    header ul {
+        display: none;
+    }
+    header span {
+        display: block;
+    }
+    .hero__contenido-logo {
+        width: 68%;
+    }
+    
+    /* burgas */
+    .menu {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media only screen and (max-width:576px) {
+    /* index */
+    .hero__contenido-logo {
+        width: 70%;
+    }
+}
