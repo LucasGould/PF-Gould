@@ -72,7 +72,7 @@ header {
 
 footer {
   text-align: center;
-  font-size: medium; }
+  font-size: 25px; }
   footer a {
     padding: 7px;
     display: inline-flex;
@@ -125,6 +125,7 @@ video {
   text-align: center;
   font-size: 300%; }
   .burgas__titulo__subtitulo {
+    max-width: 1200px;
     text-align: center;
     font-size: 150%;
     padding: 20px 20px;
